@@ -9,6 +9,8 @@ int _strlen(char *src)
     int i = 0;
     while (*src)
     {
+        if((*src=='\n') || (*src == '\0'))
+            return i;
         i++;
         src++;
     }
