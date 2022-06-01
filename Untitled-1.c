@@ -2,11 +2,7 @@
 
 int main(void)
 {
-    char **p = _strtok(_getline(),' ');
-    char cmd[30];
-    _strcpy(cmd,"/bin/");
-    _strcat(cmd,p[0]);
-    execv(cmd,p);
+    _puts("Riddim");
     return 0;
 }
 char _getchar(void)
@@ -29,4 +25,17 @@ char *_getline(void)
     line=realloc(line, _strlen(line)+1);
 
     return  line;
+}
+int _putchar(char c)
+{
+    return (write(STDOUT_FILENO,&c,1));
+}
+void _puts(char *c)
+{
+    int i = 0;
+    while(*(c+i))
+    {
+        _putchar(*(c+i));
+        i++;
+    }
 }

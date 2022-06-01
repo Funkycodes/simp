@@ -14,7 +14,9 @@ void _strcat(char *, char *);
 void _strcpy(char *, char *);
 /*GEtline*/
 char _getchar(void);
+int _putchar(char c);
 char *_getline(void);
+void _puts(char *c);
 typedef struct env
 {
     char *var;/*holds environment variable*/
