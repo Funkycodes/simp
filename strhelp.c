@@ -7,7 +7,7 @@
 int _strlen(char *src)
 {
     int i = 0;
-    while (*src)
+    while ((*src != '\n') && (*src != '\0'))
     {
         if((*src=='\n') || (*src == '\0'))
             return i;
@@ -22,16 +22,19 @@ int _strlen(char *src)
  * @src: source string
  * Return: void
  */
-void _strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
+    char *concat = malloc(_strlen(dest)+_strlen(src)+1);
     int len = _strlen(dest);
-
+    _strcpy(concat,dest);
     while (*src)
     {
-        *(dest + len) = *src;
+        *(concat + len) = *src;
         src++;
         len++;
     }
+    *(concat+len) = '\0';
+    return concat;
 }
 /**
  * _strcpy - copies one string into another, overwriting it
@@ -52,6 +55,7 @@ void _strcpy(char *dest, char *src)
     {
         *(dest + i) = *(src + i);
     }
+    *(dest +i) = '\0';
 }
 /**
  * _strcmp - compares two strings for equality
@@ -72,4 +76,3 @@ int _strcmp(char *a, char *b)
     }
     return 1;
 }
-

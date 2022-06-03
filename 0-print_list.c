@@ -16,11 +16,11 @@ size_t print_list(const list_t *h)
 		if ((h->var) == NULL)
 		{
 			write(1,"(nil)",5);
-			write(1,"\n",1);
 		} else
 		{
 			write(1,h->var,_strlen(h->var));
 		}
+		write(1,"\n",1);
 		i++;
 		h = h->next;
 	}
