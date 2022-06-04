@@ -4,6 +4,9 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <sys/types.h>
+#include <sys/wait.h>
+#include <sys/stat.h>
+extern char **environ;
 char *strdupe(char *);
 int t_arraylength(char*,char);
 char **_strtok(char *, char);
@@ -12,6 +15,11 @@ int _strcmp(char *, char *);
 int _strlen(char *);
 char* _strcat(char *, char *);
 void _strcpy(char *, char *);
+void _realloc(char **str,int n);
+/*Builtins*/
+int _builtins(char **args);
+int _cd(char *);
+void _env(void);
 /*GEtline*/
 char _getchar(void);
 int _putchar(char c);

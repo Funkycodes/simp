@@ -6,9 +6,9 @@ char _getchar(void)
     char ch[1];
     ch[0] = '\0';
     i = read(STDIN_FILENO, ch, 1);
-    if ((i == -1) || (ch[0] == -1))
+    if ((i == 0))
     {
-        printf("%d",2);
+        _putchar('\n');
     }
     return ch[0];
 }
@@ -23,7 +23,7 @@ char *_getline(void)
         i++;
     }
     *(line + i) = '\0';
-    line = realloc(line, _strlen(line) + 1);
+    _realloc(&line, _strlen(line) + 1);
 
     return line;
 }
