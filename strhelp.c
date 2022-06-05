@@ -51,7 +51,7 @@ void _strcpy(char *dest, char *src)
         *(dest+i) = 0;
         i++;
     }
-    for(i = 0; i<_strlen(src);i++)
+    for(i = 0; i < _strlen(src); i++)
     {
         *(dest + i) = *(src + i);
     }
@@ -75,4 +75,25 @@ int _strcmp(char *a, char *b)
         i++;
     }
     return 1;
+}
+
+char *c_strdup(char *str, int n)
+{
+    char *dup = malloc((_strlen(str) + n - 1) * sizeof(*dup));
+    int i = 0;
+    if (str == NULL)
+    {
+        free(dup);
+        return (NULL);
+    }
+    while (n < _strlen(str))
+    {
+        if (*(str + n) == '=')
+            n++;
+        *(dup + i) = *(str + n);
+        n++;
+        i++;
+    }
+    *(dup + i) = '\0';
+    return (dup);
 }

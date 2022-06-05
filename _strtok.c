@@ -21,6 +21,20 @@ char *strdupe(char *str)
 	return (dup);
 }
 /**
+ * ignore_delimiters - skips through delimiters at the beginning of a file
+ * @str: String to be operated upon
+ */
+
+void ignore_delimiters(char **str)
+{
+	char *node = *str;
+	while (*node == ' ')
+	{
+		node++;
+	}
+	*str = node;
+}
+/**
  * t_length - computes length of a command token from beginning index to next delimiting char
  * @str: string that contains the token
  * idx: beginning index of the token string
@@ -67,8 +81,9 @@ char **_strtok(char *str, char ch)
 {
 	char **toks = NULL;
 	int len, i  = 0, j = 0, ptr = 0;
-	int tokArr_sz = t_arraylength(str, ch);
-
+	int tokArr_sz;
+	ignore_delimiters(&str);
+	tokArr_sz = t_arraylength(str, ch);
 	toks = malloc(sizeof (char *) * (tokArr_sz + 2));
 	if (toks == NULL)
 		return (NULL);

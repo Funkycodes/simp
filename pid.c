@@ -2,22 +2,35 @@
 
 int main()
 {
-	extern char **environ;
-	int i;
+	int i,stat;
+	char **toks;
+	char *line;
+	char *cmd;
 	while(1){
-	_puts("$ ");
-	char **toks = _strtok(_getline(),' ');
-	char *cmd = malloc(100);
+		if(isatty(STDIN_FILENO))
+			_puts("$ ");
+		else
+			_puts("Non nteractive");
+		signal(SIGINT, ctrl_c);
+	toks = NULL;
+	line=_getline();
+	cmd = malloc(100);
+	if (line == NULL)
+	{
+		_puts("$ ");
+		continue;
+	}
+	toks = _strtok(line,' ');
 	if((i =_builtins(toks))==1)
 		continue;
 	else if(i == 0)
 		break;
-	int stat;
 	_strcpy(cmd,"/bin/");
 	cmd = _strcat(cmd,toks[0]);
 	if(fork() == 0)
 	{
-		execve(cmd, toks,NULL);
+		if (execve(cmd, toks,NULL) == -1)
+			perror("./shell");
 		sleep(3);
 	}
 	else
@@ -27,6 +40,7 @@ int main()
 	free(*toks);
 	free(toks);
 	free(cmd);
+	free(line);
 	}
 		return 0;
 }
