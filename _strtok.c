@@ -40,7 +40,7 @@ void ignore_delimiters(char **str)
  * idx: beginning index of the token string
  * ch: delimiting char
  */
-int t_length(char *str, char idx, char ch)
+int t_length(char *str, int idx, char ch)
 {
 	int len = 0;
 	while (*(str + idx) != ch && *(str + idx) != '\0')

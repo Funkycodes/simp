@@ -8,11 +8,18 @@
 #include <signal.h>
 #include <sys/stat.h>
 extern char **environ;
+typedef struct env
+{
+    char *var;/*holds environment variable*/
+    struct env *next;/*ptr to next variable*/
+} list_t;
+
+
 void ctrl_c(int n);
 char *strdupe(char *);
 int t_arraylength(char*,char);
 char **_strtok(char *, char);
-int t_length(char *, char ,char);
+int t_length(char *, int ,char);
 int _strcmp(char *, char *);
 int _strlen(char *);
 char* _strcat(char *, char *);
@@ -23,6 +30,12 @@ int numlen(int n);
 char *i_to_str(int);
 char *revstr(char *str);
 void _realloc(char **str,int n);
+char **path_strtok(char *str, char *delim);
+int delimnum(char *str, char delim);
+void free_double_ptr(char **str);
+void c_exit(char **str, list_t *env);
+int _execute(char **toksArr, list_t *env, int num);
+void not_found(char *str, int c_n, list_t *env);
 /*Builtins*/
 int _builtins(char **args);
 int _cd(char *);
@@ -32,12 +45,6 @@ char _getchar(void);
 int _putchar(char c);
 char *_getline(void);
 void _puts(char *c);
-typedef struct env
-{
-    char *var;/*holds environment variable*/
-    struct env *next;/*ptr to next variable*/
-} list_t;
-
 /*Functions*/
 size_t print_list(const list_t *);
 size_t list_len(const list_t *h);
@@ -50,4 +57,5 @@ char *get_env(list_t *h, char *var);
 void unset_env(list_t **h, char *var);
 void createnvlist(list_t **h);
 void free_list(list_t *);
+char *_which(char *str, list_t *env);
 #endif

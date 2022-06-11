@@ -22,7 +22,7 @@ list_t *add_node_end(list_t **head, char *str)
 	if (new_node == NULL)
 		return (NULL);
 
-	new_node->var= strdup(str); /* set node values */
+	new_node->var = strdup(str); /* set node values */
 	new_node->next = NULL;
 
 	if (*head == NULL) /* if no list nodes, set new_node to beginning */

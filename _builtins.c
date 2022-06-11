@@ -3,11 +3,11 @@
 int _builtins(char **args)
 {
 	int i = 0;
-	char *builtins[] = {"cd","exit","env",NULL};
+	char *builtins[] = {"cd", "exit", "env", NULL};
 
 	while(builtins[i])
 	{
-		if(_strcmp(args[0],builtins[i]))
+		if(_strcmp(args[0], builtins[i]))
 		{
 			break;
 		}
@@ -27,6 +27,6 @@ int _builtins(char **args)
 			return (1);
 			break;
 		default:
-			return 2;
+			return (2);
 	}
 }

@@ -3,7 +3,7 @@ int _cd(char *dir)
 {
     char *ch;
     char pwd[1023];
-    int i;
+    int i = 0;
     switch (dir[0])
     {
     case '-':
@@ -31,5 +31,6 @@ int _cd(char *dir)
         ch = getenv("HOME");
     }
     if((i = chdir(ch)) == -1)
-	    perror("chdir failed:");
+	    perror("chdir failed");
+    return (i);
 }

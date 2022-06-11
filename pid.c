@@ -2,45 +2,33 @@
 
 int main()
 {
-	int i,stat;
+	list_t *env;
+	int i;
 	char **toks;
 	char *line;
-	char *cmd;
-	while(1){
-		if(isatty(STDIN_FILENO))
+	int cmd_no = 0;
+	createnvlist(&env);
+	while (1)
+	{
+		cmd_no++;
+		if (isatty(STDIN_FILENO))
 			_puts("$ ");
 		else
 			_puts("Non nteractive");
 		signal(SIGINT, ctrl_c);
-	toks = NULL;
-	line=_getline();
-	cmd = malloc(100);
-	if (line == NULL)
-	{
-		_puts("$ ");
-		continue;
+		toks = NULL;
+		line = _getline();
+		if (line == NULL)
+		{
+			continue;
+		}
+		toks = _strtok(line, ' ');
+		if ((i = _builtins(toks)) == 1)
+			continue;
+		else if (i == 0)
+			break;
+		i = _execute(toks, env, cmd_no);
 	}
-	toks = _strtok(line,' ');
-	if((i =_builtins(toks))==1)
-		continue;
-	else if(i == 0)
-		break;
-	_strcpy(cmd,"/bin/");
-	cmd = _strcat(cmd,toks[0]);
-	if(fork() == 0)
-	{
-		if (execve(cmd, toks,NULL) == -1)
-			perror("./shell");
-		sleep(3);
-	}
-	else
-	{
-		wait(&stat);
-	}
-	free(*toks);
-	free(toks);
-	free(cmd);
-	free(line);
-	}
-		return 0;
+	return (i);
 }
+

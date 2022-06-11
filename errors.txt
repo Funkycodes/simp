@@ -1,0 +1,460 @@
+_builtins.c:8: ERROR: space required before the open parenthesis '('
+_builtins.c:10: ERROR: space required before the open parenthesis '('
+_builtins.c:16: ERROR: space required before the open parenthesis '('
+_builtins.c:20: WARNING: break is not useful after a goto or return
+_builtins.c:24: WARNING: break is not useful after a goto or return
+_builtins.c:28: WARNING: break is not useful after a goto or return
+total: 3 errors, 3 warnings, 32 lines checked
+_cd.c:4: WARNING: please, no spaces at the start of a line
+_cd.c:5: WARNING: please, no spaces at the start of a line
+_cd.c:6: WARNING: please, no spaces at the start of a line
+_cd.c:7: WARNING: Missing a blank line after declarations
+_cd.c:7: WARNING: please, no spaces at the start of a line
+_cd.c:8: WARNING: please, no spaces at the start of a line
+_cd.c:9: WARNING: please, no spaces at the start of a line
+_cd.c:10: ERROR: code indent should use tabs where possible
+_cd.c:10: WARNING: please, no spaces at the start of a line
+_cd.c:12: ERROR: space required after that ',' (ctx:VxV)
+_cd.c:16: ERROR: space required after that ',' (ctx:VxV)
+_cd.c:19: ERROR: parentheses are required on a return statement
+_cd.c:21: ERROR: code indent should use tabs where possible
+_cd.c:21: WARNING: please, no spaces at the start of a line
+_cd.c:22: WARNING: please, no spaces at the start of a line
+_cd.c:23: ERROR: code indent should use tabs where possible
+_cd.c:23: WARNING: please, no spaces at the start of a line
+_cd.c:24: ERROR: code indent should use tabs where possible
+_cd.c:24: WARNING: please, no spaces at the start of a line
+_cd.c:26: ERROR: code indent should use tabs where possible
+_cd.c:26: WARNING: please, no spaces at the start of a line
+_cd.c:27: ERROR: code indent should use tabs where possible
+_cd.c:27: WARNING: please, no spaces at the start of a line
+_cd.c:28: WARNING: please, no spaces at the start of a line
+_cd.c:29: WARNING: please, no spaces at the start of a line
+_cd.c:29: ERROR: spaces required around that '==' (ctx:VxV)
+_cd.c:29: ERROR: space required before the open parenthesis '('
+_cd.c:30: WARNING: please, no spaces at the start of a line
+_cd.c:31: ERROR: code indent should use tabs where possible
+_cd.c:31: WARNING: please, no spaces at the start of a line
+_cd.c:32: WARNING: please, no spaces at the start of a line
+_cd.c:33: WARNING: please, no spaces at the start of a line
+_cd.c:33: WARNING: suspect code indent for conditional statements (4, 12)
+_cd.c:33: ERROR: space required before the open parenthesis '('
+_cd.c:33: ERROR: do not use assignment in if condition
+_cd.c:35: WARNING: please, no spaces at the start of a line
+total: 14 errors, 22 warnings, 36 lines checked
+char_func.c:5: WARNING: please, no spaces at the start of a line
+char_func.c:6: WARNING: please, no spaces at the start of a line
+char_func.c:7: WARNING: Missing a blank line after declarations
+char_func.c:7: WARNING: please, no spaces at the start of a line
+char_func.c:8: WARNING: please, no spaces at the start of a line
+char_func.c:9: WARNING: please, no spaces at the start of a line
+char_func.c:9: WARNING: suspect code indent for conditional statements (4, 12)
+char_func.c:10: WARNING: please, no spaces at the start of a line
+char_func.c:11: WARNING: Statements should start on a tabstop
+char_func.c:11: WARNING: suspect code indent for conditional statements (12, 20)
+char_func.c:14: WARNING: please, no spaces at the start of a line
+char_func.c:15: WARNING: please, no spaces at the start of a line
+char_func.c:15: ERROR: parentheses are required on a return statement
+char_func.c:19: WARNING: please, no spaces at the start of a line
+char_func.c:20: WARNING: please, no spaces at the start of a line
+char_func.c:21: WARNING: please, no spaces at the start of a line
+char_func.c:22: WARNING: Missing a blank line after declarations
+char_func.c:22: WARNING: please, no spaces at the start of a line
+char_func.c:23: WARNING: please, no spaces at the start of a line
+char_func.c:24: ERROR: code indent should use tabs where possible
+char_func.c:24: WARNING: please, no spaces at the start of a line
+char_func.c:25: ERROR: code indent should use tabs where possible
+char_func.c:25: WARNING: please, no spaces at the start of a line
+char_func.c:26: WARNING: please, no spaces at the start of a line
+char_func.c:27: WARNING: please, no spaces at the start of a line
+char_func.c:28: WARNING: please, no spaces at the start of a line
+char_func.c:28: WARNING: suspect code indent for conditional statements (4, 12)
+char_func.c:28: ERROR: spaces required around that '==' (ctx:VxV)
+char_func.c:28: ERROR: space required before the open parenthesis '('
+char_func.c:29: WARNING: Statements should start on a tabstop
+char_func.c:29: ERROR: parentheses are required on a return statement
+char_func.c:30: WARNING: please, no spaces at the start of a line
+char_func.c:32: WARNING: please, no spaces at the start of a line
+char_func.c:32: ERROR: parentheses are required on a return statement
+char_func.c:36: WARNING: please, no spaces at the start of a line
+char_func.c:39: ERROR: trailing whitespace
+char_func.c:40: WARNING: please, no spaces at the start of a line
+char_func.c:41: WARNING: Missing a blank line after declarations
+char_func.c:41: WARNING: please, no spaces at the start of a line
+char_func.c:41: WARNING: suspect code indent for conditional statements (4, 12)
+char_func.c:42: WARNING: Statements should start on a tabstop
+char_func.c:43: WARNING: please, no spaces at the start of a line
+char_func.c:44: WARNING: please, no spaces at the start of a line
+char_func.c:45: ERROR: code indent should use tabs where possible
+char_func.c:45: WARNING: please, no spaces at the start of a line
+char_func.c:46: ERROR: code indent should use tabs where possible
+char_func.c:46: WARNING: please, no spaces at the start of a line
+char_func.c:47: WARNING: please, no spaces at the start of a line
+total: 10 errors, 38 warnings, 48 lines checked
+_env.c:7: ERROR: space required before the open parenthesis '('
+total: 1 errors, 0 warnings, 13 lines checked
+env_linked.c:5: WARNING: please, no spaces at the start of a line
+env_linked.c:6: WARNING: please, no spaces at the start of a line
+env_linked.c:8: WARNING: please, no spaces at the start of a line
+env_linked.c:9: WARNING: please, no spaces at the start of a line
+env_linked.c:10: ERROR: code indent should use tabs where possible
+env_linked.c:10: WARNING: please, no spaces at the start of a line
+env_linked.c:10: WARNING: suspect code indent for conditional statements (8, 12)
+env_linked.c:11: ERROR: code indent should use tabs where possible
+env_linked.c:11: WARNING: please, no spaces at the start of a line
+env_linked.c:11: ERROR: parentheses are required on a return statement
+env_linked.c:12: ERROR: code indent should use tabs where possible
+env_linked.c:12: WARNING: please, no spaces at the start of a line
+env_linked.c:13: WARNING: please, no spaces at the start of a line
+env_linked.c:14: WARNING: please, no spaces at the start of a line
+env_linked.c:14: ERROR: parentheses are required on a return statement
+env_linked.c:19: WARNING: please, no spaces at the start of a line
+env_linked.c:20: WARNING: Missing a blank line after declarations
+env_linked.c:20: WARNING: please, no spaces at the start of a line
+env_linked.c:21: WARNING: please, no spaces at the start of a line
+env_linked.c:22: ERROR: code indent should use tabs where possible
+env_linked.c:22: WARNING: please, no spaces at the start of a line
+env_linked.c:23: ERROR: code indent should use tabs where possible
+env_linked.c:23: WARNING: please, no spaces at the start of a line
+env_linked.c:24: WARNING: please, no spaces at the start of a line
+total: 7 errors, 17 warnings, 26 lines checked
+error.c:10: WARNING: please, no spaces at the start of a line
+error.c:11: WARNING: please, no spaces at the start of a line
+error.c:13: WARNING: please, no spaces at the start of a line
+error.c:13: ERROR: space required after that ',' (ctx:VxV)
+error.c:14: WARNING: please, no spaces at the start of a line
+error.c:15: WARNING: please, no spaces at the start of a line
+error.c:16: WARNING: please, no spaces at the start of a line
+error.c:17: WARNING: please, no spaces at the start of a line
+error.c:18: WARNING: please, no spaces at the start of a line
+error.c:19: WARNING: please, no spaces at the start of a line
+error.c:20: WARNING: please, no spaces at the start of a line
+error.c:21: WARNING: please, no spaces at the start of a line
+error.c:22: WARNING: please, no spaces at the start of a line
+error.c:23: WARNING: please, no spaces at the start of a line
+total: 1 errors, 13 warnings, 24 lines checked
+_execute.c:9: WARNING: please, no spaces at the start of a line
+_execute.c:11: WARNING: please, no spaces at the start of a line
+_execute.c:12: WARNING: please, no spaces at the start of a line
+_execute.c:13: ERROR: code indent should use tabs where possible
+_execute.c:13: WARNING: please, no spaces at the start of a line
+_execute.c:14: ERROR: code indent should use tabs where possible
+_execute.c:14: WARNING: please, no spaces at the start of a line
+_execute.c:15: WARNING: please, no spaces at the start of a line
+_execute.c:16: WARNING: please, no spaces at the start of a line
+_execute.c:26: WARNING: please, no spaces at the start of a line
+_execute.c:27: WARNING: please, no spaces at the start of a line
+_execute.c:28: WARNING: please, no spaces at the start of a line
+_execute.c:39: WARNING: please, no spaces at the start of a line
+_execute.c:40: WARNING: please, no spaces at the start of a line
+_execute.c:41: WARNING: please, no spaces at the start of a line
+_execute.c:44: WARNING: please, no spaces at the start of a line
+_execute.c:45: WARNING: please, no spaces at the start of a line
+_execute.c:46: ERROR: code indent should use tabs where possible
+_execute.c:46: WARNING: please, no spaces at the start of a line
+_execute.c:47: ERROR: code indent should use tabs where possible
+_execute.c:47: WARNING: please, no spaces at the start of a line
+_execute.c:48: WARNING: please, no spaces at the start of a line
+_execute.c:50: WARNING: please, no spaces at the start of a line
+_execute.c:51: ERROR: code indent should use tabs where possible
+_execute.c:51: WARNING: please, no spaces at the start of a line
+_execute.c:53: WARNING: please, no spaces at the start of a line
+_execute.c:54: WARNING: please, no spaces at the start of a line
+_execute.c:55: ERROR: code indent should use tabs where possible
+_execute.c:55: WARNING: please, no spaces at the start of a line
+_execute.c:56: ERROR: code indent should use tabs where possible
+_execute.c:56: WARNING: please, no spaces at the start of a line
+_execute.c:57: ERROR: code indent should use tabs where possible
+_execute.c:57: WARNING: please, no spaces at the start of a line
+_execute.c:58: WARNING: please, no spaces at the start of a line
+_execute.c:59: WARNING: please, no spaces at the start of a line
+_execute.c:60: WARNING: please, no spaces at the start of a line
+_execute.c:61: ERROR: code indent should use tabs where possible
+_execute.c:61: WARNING: please, no spaces at the start of a line
+_execute.c:62: ERROR: code indent should use tabs where possible
+_execute.c:62: WARNING: please, no spaces at the start of a line
+_execute.c:62: WARNING: suspect code indent for conditional statements (8, 12)
+_execute.c:63: ERROR: code indent should use tabs where possible
+_execute.c:63: WARNING: please, no spaces at the start of a line
+_execute.c:64: ERROR: code indent should use tabs where possible
+_execute.c:64: WARNING: please, no spaces at the start of a line
+_execute.c:65: ERROR: code indent should use tabs where possible
+_execute.c:65: WARNING: please, no spaces at the start of a line
+_execute.c:66: ERROR: code indent should use tabs where possible
+_execute.c:66: WARNING: please, no spaces at the start of a line
+_execute.c:67: ERROR: code indent should use tabs where possible
+_execute.c:67: WARNING: please, no spaces at the start of a line
+_execute.c:68: ERROR: code indent should use tabs where possible
+_execute.c:68: WARNING: please, no spaces at the start of a line
+_execute.c:69: ERROR: code indent should use tabs where possible
+_execute.c:69: WARNING: please, no spaces at the start of a line
+_execute.c:70: ERROR: code indent should use tabs where possible
+_execute.c:70: WARNING: please, no spaces at the start of a line
+_execute.c:71: ERROR: code indent should use tabs where possible
+_execute.c:71: WARNING: please, no spaces at the start of a line
+_execute.c:72: ERROR: code indent should use tabs where possible
+_execute.c:72: WARNING: please, no spaces at the start of a line
+_execute.c:73: ERROR: code indent should use tabs where possible
+_execute.c:73: WARNING: please, no spaces at the start of a line
+_execute.c:74: ERROR: code indent should use tabs where possible
+_execute.c:74: WARNING: please, no spaces at the start of a line
+_execute.c:75: ERROR: code indent should use tabs where possible
+_execute.c:75: WARNING: please, no spaces at the start of a line
+_execute.c:76: ERROR: code indent should use tabs where possible
+_execute.c:76: WARNING: please, no spaces at the start of a line
+_execute.c:77: WARNING: please, no spaces at the start of a line
+_execute.c:78: WARNING: please, no spaces at the start of a line
+total: 24 errors, 47 warnings, 79 lines checked
+get_env.c:7: WARNING: Missing a blank line after declarations
+get_env.c:13: ERROR: parentheses are required on a return statement
+get_env.c:22: ERROR: parentheses are required on a return statement
+total: 2 errors, 1 warnings, 24 lines checked
+get_node.c:5: WARNING: please, no spaces at the start of a line
+get_node.c:6: WARNING: Missing a blank line after declarations
+get_node.c:6: WARNING: please, no spaces at the start of a line
+get_node.c:7: ERROR: code indent should use tabs where possible
+get_node.c:7: WARNING: please, no spaces at the start of a line
+get_node.c:7: ERROR: parentheses are required on a return statement
+get_node.c:8: WARNING: please, no spaces at the start of a line
+get_node.c:9: WARNING: please, no spaces at the start of a line
+get_node.c:10: ERROR: code indent should use tabs where possible
+get_node.c:10: WARNING: please, no spaces at the start of a line
+get_node.c:10: WARNING: suspect code indent for conditional statements (8, 12)
+get_node.c:11: ERROR: code indent should use tabs where possible
+get_node.c:11: WARNING: please, no spaces at the start of a line
+get_node.c:11: ERROR: parentheses are required on a return statement
+get_node.c:12: ERROR: code indent should use tabs where possible
+get_node.c:12: WARNING: please, no spaces at the start of a line
+get_node.c:13: WARNING: please, no spaces at the start of a line
+get_node.c:14: WARNING: please, no spaces at the start of a line
+get_node.c:14: ERROR: parentheses are required on a return statement
+total: 7 errors, 12 warnings, 16 lines checked
+numlen.c:6: WARNING: Missing a blank line after declarations
+numlen.c:11: ERROR: that open brace { should be on the previous line
+numlen.c:31: ERROR: parentheses are required on a return statement
+numlen.c:38: WARNING: Missing a blank line after declarations
+numlen.c:47: ERROR: parentheses are required on a return statement
+total: 3 errors, 2 warnings, 49 lines checked
+path_strok.c:4: WARNING: please, no spaces at the start of a line
+path_strok.c:5: WARNING: Missing a blank line after declarations
+path_strok.c:5: WARNING: please, no spaces at the start of a line
+path_strok.c:6: WARNING: please, no spaces at the start of a line
+path_strok.c:7: WARNING: please, no spaces at the start of a line
+path_strok.c:8: ERROR: code indent should use tabs where possible
+path_strok.c:8: WARNING: please, no spaces at the start of a line
+path_strok.c:8: WARNING: suspect code indent for conditional statements (8, 12)
+path_strok.c:9: ERROR: code indent should use tabs where possible
+path_strok.c:9: WARNING: please, no spaces at the start of a line
+path_strok.c:10: ERROR: code indent should use tabs where possible
+path_strok.c:10: WARNING: please, no spaces at the start of a line
+path_strok.c:11: WARNING: please, no spaces at the start of a line
+path_strok.c:12: WARNING: please, no spaces at the start of a line
+path_strok.c:16: WARNING: please, no spaces at the start of a line
+path_strok.c:17: WARNING: please, no spaces at the start of a line
+path_strok.c:18: WARNING: Missing a blank line after declarations
+path_strok.c:18: WARNING: please, no spaces at the start of a line
+path_strok.c:19: WARNING: please, no spaces at the start of a line
+path_strok.c:20: WARNING: please, no spaces at the start of a line
+path_strok.c:21: ERROR: code indent should use tabs where possible
+path_strok.c:21: WARNING: please, no spaces at the start of a line
+path_strok.c:21: ERROR: parentheses are required on a return statement
+path_strok.c:22: WARNING: please, no spaces at the start of a line
+path_strok.c:23: WARNING: please, no spaces at the start of a line
+path_strok.c:24: WARNING: please, no spaces at the start of a line
+path_strok.c:25: ERROR: code indent should use tabs where possible
+path_strok.c:25: WARNING: please, no spaces at the start of a line
+path_strok.c:26: WARNING: please, no spaces at the start of a line
+path_strok.c:27: ERROR: code indent should use tabs where possible
+path_strok.c:27: WARNING: please, no spaces at the start of a line
+path_strok.c:28: WARNING: please, no spaces at the start of a line
+path_strok.c:29: WARNING: please, no spaces at the start of a line
+path_strok.c:31: ERROR: code indent should use tabs where possible
+path_strok.c:31: WARNING: please, no spaces at the start of a line
+path_strok.c:32: ERROR: code indent should use tabs where possible
+path_strok.c:32: WARNING: please, no spaces at the start of a line
+path_strok.c:33: ERROR: code indent should use tabs where possible
+path_strok.c:33: WARNING: please, no spaces at the start of a line
+path_strok.c:33: WARNING: suspect code indent for conditional statements (8, 12)
+path_strok.c:34: ERROR: code indent should use tabs where possible
+path_strok.c:34: WARNING: please, no spaces at the start of a line
+path_strok.c:35: ERROR: code indent should use tabs where possible
+path_strok.c:35: WARNING: please, no spaces at the start of a line
+path_strok.c:36: ERROR: code indent should use tabs where possible
+path_strok.c:36: WARNING: please, no spaces at the start of a line
+path_strok.c:37: ERROR: code indent should use tabs where possible
+path_strok.c:37: WARNING: please, no spaces at the start of a line
+path_strok.c:38: ERROR: code indent should use tabs where possible
+path_strok.c:38: WARNING: please, no spaces at the start of a line
+path_strok.c:39: ERROR: code indent should use tabs where possible
+path_strok.c:39: WARNING: please, no spaces at the start of a line
+path_strok.c:40: ERROR: code indent should use tabs where possible
+path_strok.c:40: WARNING: please, no spaces at the start of a line
+path_strok.c:41: ERROR: code indent should use tabs where possible
+path_strok.c:41: WARNING: please, no spaces at the start of a line
+path_strok.c:42: WARNING: please, no spaces at the start of a line
+path_strok.c:43: WARNING: please, no spaces at the start of a line
+path_strok.c:44: WARNING: please, no spaces at the start of a line
+path_strok.c:54: WARNING: please, no spaces at the start of a line
+path_strok.c:55: WARNING: please, no spaces at the start of a line
+path_strok.c:58: WARNING: please, no spaces at the start of a line
+path_strok.c:59: WARNING: please, no spaces at the start of a line
+path_strok.c:60: WARNING: please, no spaces at the start of a line
+path_strok.c:63: WARNING: please, no spaces at the start of a line
+path_strok.c:64: WARNING: please, no spaces at the start of a line
+path_strok.c:65: WARNING: please, no spaces at the start of a line
+path_strok.c:66: ERROR: code indent should use tabs where possible
+path_strok.c:66: WARNING: please, no spaces at the start of a line
+path_strok.c:66: WARNING: suspect code indent for conditional statements (8, 12)
+path_strok.c:67: ERROR: code indent should use tabs where possible
+path_strok.c:67: WARNING: please, no spaces at the start of a line
+path_strok.c:68: ERROR: code indent should use tabs where possible
+path_strok.c:68: WARNING: please, no spaces at the start of a line
+path_strok.c:69: ERROR: code indent should use tabs where possible
+path_strok.c:69: WARNING: please, no spaces at the start of a line
+path_strok.c:70: ERROR: code indent should use tabs where possible
+path_strok.c:70: WARNING: please, no spaces at the start of a line
+path_strok.c:71: ERROR: code indent should use tabs where possible
+path_strok.c:71: WARNING: please, no spaces at the start of a line
+path_strok.c:72: ERROR: code indent should use tabs where possible
+path_strok.c:72: WARNING: please, no spaces at the start of a line
+path_strok.c:72: WARNING: suspect code indent for conditional statements (8, 12)
+path_strok.c:73: ERROR: code indent should use tabs where possible
+path_strok.c:73: WARNING: please, no spaces at the start of a line
+path_strok.c:74: ERROR: code indent should use tabs where possible
+path_strok.c:74: WARNING: please, no spaces at the start of a line
+path_strok.c:75: ERROR: code indent should use tabs where possible
+path_strok.c:75: WARNING: please, no spaces at the start of a line
+path_strok.c:76: ERROR: code indent should use tabs where possible
+path_strok.c:76: WARNING: please, no spaces at the start of a line
+path_strok.c:77: ERROR: code indent should use tabs where possible
+path_strok.c:77: WARNING: please, no spaces at the start of a line
+path_strok.c:78: WARNING: please, no spaces at the start of a line
+path_strok.c:79: WARNING: please, no spaces at the start of a line
+total: 30 errors, 65 warnings, 81 lines checked
+pid.c:3: ERROR: int main() should probably be int main(void)
+pid.c:10: WARNING: Missing a blank line after declarations
+pid.c:26: ERROR: do not use assignment in if condition
+total: 2 errors, 1 warnings, 34 lines checked
+_realloc.c:3: ERROR: space required after that ',' (ctx:VxV)
+_realloc.c:6: WARNING: Missing a blank line after declarations
+_realloc.c:8: ERROR: space required after that ',' (ctx:VxV)
+total: 2 errors, 1 warnings, 10 lines checked
+set_env.c:5: WARNING: Missing a blank line after declarations
+set_env.c:13: WARNING: Missing a blank line after declarations
+set_env.c:23: WARNING: Missing a blank line after declarations
+total: 0 errors, 3 warnings, 35 lines checked
+strhelp.c:9: WARNING: please, no spaces at the start of a line
+strhelp.c:10: WARNING: Missing a blank line after declarations
+strhelp.c:10: WARNING: please, no spaces at the start of a line
+strhelp.c:11: WARNING: please, no spaces at the start of a line
+strhelp.c:12: ERROR: code indent should use tabs where possible
+strhelp.c:12: WARNING: please, no spaces at the start of a line
+strhelp.c:12: WARNING: suspect code indent for conditional statements (8, 12)
+strhelp.c:12: ERROR: spaces required around that '==' (ctx:VxV)
+strhelp.c:12: ERROR: space required before the open parenthesis '('
+strhelp.c:13: ERROR: code indent should use tabs where possible
+strhelp.c:13: WARNING: please, no spaces at the start of a line
+strhelp.c:13: ERROR: parentheses are required on a return statement
+strhelp.c:14: ERROR: code indent should use tabs where possible
+strhelp.c:14: WARNING: please, no spaces at the start of a line
+strhelp.c:15: ERROR: code indent should use tabs where possible
+strhelp.c:15: WARNING: please, no spaces at the start of a line
+strhelp.c:16: WARNING: please, no spaces at the start of a line
+strhelp.c:17: WARNING: please, no spaces at the start of a line
+strhelp.c:27: WARNING: please, no spaces at the start of a line
+strhelp.c:27: ERROR: spaces preferred around that '+' (ctx:VxV)
+strhelp.c:27: ERROR: spaces preferred around that '+' (ctx:VxV)
+strhelp.c:28: WARNING: please, no spaces at the start of a line
+strhelp.c:29: WARNING: Missing a blank line after declarations
+strhelp.c:29: WARNING: please, no spaces at the start of a line
+strhelp.c:29: ERROR: space required after that ',' (ctx:VxV)
+strhelp.c:30: WARNING: please, no spaces at the start of a line
+strhelp.c:31: WARNING: please, no spaces at the start of a line
+strhelp.c:32: ERROR: code indent should use tabs where possible
+strhelp.c:32: WARNING: please, no spaces at the start of a line
+strhelp.c:33: ERROR: code indent should use tabs where possible
+strhelp.c:33: WARNING: please, no spaces at the start of a line
+strhelp.c:34: ERROR: code indent should use tabs where possible
+strhelp.c:34: WARNING: please, no spaces at the start of a line
+strhelp.c:35: WARNING: please, no spaces at the start of a line
+strhelp.c:36: WARNING: please, no spaces at the start of a line
+strhelp.c:36: ERROR: spaces preferred around that '+' (ctx:VxV)
+strhelp.c:37: WARNING: please, no spaces at the start of a line
+strhelp.c:37: ERROR: parentheses are required on a return statement
+strhelp.c:47: WARNING: please, no spaces at the start of a line
+strhelp.c:48: WARNING: please, no spaces at the start of a line
+strhelp.c:49: WARNING: Missing a blank line after declarations
+strhelp.c:49: WARNING: please, no spaces at the start of a line
+strhelp.c:49: ERROR: space required before the open parenthesis '('
+strhelp.c:50: WARNING: please, no spaces at the start of a line
+strhelp.c:51: ERROR: code indent should use tabs where possible
+strhelp.c:51: WARNING: please, no spaces at the start of a line
+strhelp.c:51: ERROR: spaces preferred around that '+' (ctx:VxV)
+strhelp.c:52: ERROR: code indent should use tabs where possible
+strhelp.c:52: WARNING: please, no spaces at the start of a line
+strhelp.c:53: WARNING: please, no spaces at the start of a line
+strhelp.c:54: WARNING: please, no spaces at the start of a line
+strhelp.c:54: ERROR: space required before the open parenthesis '('
+strhelp.c:55: WARNING: please, no spaces at the start of a line
+strhelp.c:56: ERROR: code indent should use tabs where possible
+strhelp.c:56: WARNING: please, no spaces at the start of a line
+strhelp.c:57: WARNING: please, no spaces at the start of a line
+strhelp.c:58: WARNING: please, no spaces at the start of a line
+strhelp.c:58: ERROR: spaces preferred around that '+' (ctx:WxV)
+strhelp.c:68: WARNING: please, no spaces at the start of a line
+strhelp.c:69: WARNING: Missing a blank line after declarations
+strhelp.c:69: WARNING: please, no spaces at the start of a line
+strhelp.c:69: ERROR: space required before the open parenthesis '('
+strhelp.c:70: ERROR: code indent should use tabs where possible
+strhelp.c:70: WARNING: please, no spaces at the start of a line
+strhelp.c:70: ERROR: parentheses are required on a return statement
+strhelp.c:71: WARNING: please, no spaces at the start of a line
+strhelp.c:71: ERROR: space required before the open parenthesis '('
+strhelp.c:72: WARNING: please, no spaces at the start of a line
+strhelp.c:73: ERROR: code indent should use tabs where possible
+strhelp.c:73: WARNING: please, no spaces at the start of a line
+strhelp.c:73: WARNING: suspect code indent for conditional statements (8, 12)
+strhelp.c:73: ERROR: space required before the open parenthesis '('
+strhelp.c:74: ERROR: code indent should use tabs where possible
+strhelp.c:74: WARNING: please, no spaces at the start of a line
+strhelp.c:74: ERROR: parentheses are required on a return statement
+strhelp.c:75: ERROR: code indent should use tabs where possible
+strhelp.c:75: WARNING: please, no spaces at the start of a line
+strhelp.c:76: WARNING: please, no spaces at the start of a line
+strhelp.c:77: WARNING: please, no spaces at the start of a line
+strhelp.c:77: ERROR: parentheses are required on a return statement
+strhelp.c:82: WARNING: please, no spaces at the start of a line
+strhelp.c:83: WARNING: please, no spaces at the start of a line
+strhelp.c:84: WARNING: Missing a blank line after declarations
+strhelp.c:84: WARNING: please, no spaces at the start of a line
+strhelp.c:85: WARNING: please, no spaces at the start of a line
+strhelp.c:86: ERROR: code indent should use tabs where possible
+strhelp.c:86: WARNING: please, no spaces at the start of a line
+strhelp.c:87: ERROR: code indent should use tabs where possible
+strhelp.c:87: WARNING: please, no spaces at the start of a line
+strhelp.c:88: WARNING: please, no spaces at the start of a line
+strhelp.c:89: WARNING: please, no spaces at the start of a line
+strhelp.c:90: WARNING: please, no spaces at the start of a line
+strhelp.c:91: ERROR: code indent should use tabs where possible
+strhelp.c:91: WARNING: please, no spaces at the start of a line
+strhelp.c:91: WARNING: suspect code indent for conditional statements (8, 12)
+strhelp.c:92: ERROR: code indent should use tabs where possible
+strhelp.c:92: WARNING: please, no spaces at the start of a line
+strhelp.c:93: ERROR: code indent should use tabs where possible
+strhelp.c:93: WARNING: please, no spaces at the start of a line
+strhelp.c:94: ERROR: code indent should use tabs where possible
+strhelp.c:94: WARNING: please, no spaces at the start of a line
+strhelp.c:95: ERROR: code indent should use tabs where possible
+strhelp.c:95: WARNING: please, no spaces at the start of a line
+strhelp.c:96: WARNING: please, no spaces at the start of a line
+strhelp.c:97: WARNING: please, no spaces at the start of a line
+strhelp.c:98: WARNING: please, no spaces at the start of a line
+total: 39 errors, 67 warnings, 99 lines checked
+_strtok.c:31: WARNING: Missing a blank line after declarations
+_strtok.c:38: WARNING: line over 80 characters (94)
+_strtok.c:46: WARNING: Missing a blank line after declarations
+_strtok.c:54: WARNING: line over 80 characters (97)
+_strtok.c:61: WARNING: Missing a blank line after declarations
+_strtok.c:85: WARNING: Missing a blank line after declarations
+_strtok.c:87: WARNING: space prohibited between function name and open parenthesis '('
+total: 0 errors, 7 warnings, 116 lines checked

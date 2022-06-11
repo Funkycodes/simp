@@ -13,7 +13,7 @@ list_t *add_node(list_t **head, char *str)
 {
 	list_t *new_node;
 
-	if (str == NULL) 
+	if (str == NULL)
 		return (NULL);
 	if (strdupe(str) == NULL)
 		return (NULL);

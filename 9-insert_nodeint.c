@@ -8,7 +8,7 @@
  */
 list_t *insert_nodeint_at_index(list_t **head, unsigned int idx, char *str)
 {
-	list_t *newnode = malloc(sizeof *newnode);
+	list_t *newnode = malloc(sizeof(*newnode));
 	list_t *node;
 	unsigned int j;
 
