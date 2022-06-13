@@ -39,6 +39,7 @@ void not_found(char *str, int c_n, list_t *env);
 /*Builtins*/
 int _builtins(char **args, list_t **);
 int _cd(char *, list_t **);
+void cd_error(list_t *, int, char *);
 void _env(void);
 /*GEtline*/
 char _getchar(void);

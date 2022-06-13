@@ -21,3 +21,19 @@ void not_found(char *str, int c_n, list_t *env)
 	_puts(": ");
 	_puts("not found\n");
 }
+
+void cd_error(list_t *env, int i, char *str)
+{
+	char *shell;
+	
+	shell = get_env(env, "_");
+	if (i == -1)
+	{
+	_puts(shell);
+	_puts(": cd: ");
+	_puts(str);
+	_puts(": No such file or directory\n");
+	}
+	free(shell);
+	return;
+}
