@@ -7,17 +7,17 @@
  */
 void not_found(char *str, int c_n, list_t *env)
 {
-    char *shell, *num;
+	char *shell, *num;
 
-    shell = get_env(env,"_"); /* get shell name to write */
-    _puts(shell);
-    free(shell);
-    _puts(": ");
-    num = i_to_str(c_n); /* convert cmd line num to string to write */
-    _puts(num);
-    free(num);
-    _puts(": ");
-    _puts(str);
-    _puts(": ");
-    _puts("not found\n");
+	shell = get_env(env, "_"); /* get shell name to write */
+	_puts(shell);
+	free(shell);
+	_puts(": ");
+	num = i_to_str(c_n); /* convert cmd line num to string to write */
+	_puts(num);
+	free(num);
+	_puts(": ");
+	_puts(str);
+	_puts(": ");
+	_puts("not found\n");
 }

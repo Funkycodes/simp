@@ -3,12 +3,12 @@
 int numlen(int n)
 {
 	int len = 0;
+
 	if (n == 0)
 		return (1);
 	if (n < 0)
 		n *= -1;
-	do
-	{
+	do {
 		n /= 10;
 		len++;
 	} while (n > 0);
@@ -28,13 +28,14 @@ char *revstr(char *str)
 	}
 	*(tmp + i) = '\0';
 	free(str);
-	return tmp;
+	return (tmp);
 }
 char *i_to_str(int n)
 {
 	int len = numlen(n);
 	int i;
 	char *p = malloc(len + 1);
+
 	if (n < 0)
 		n *= -1;
 	for (i = 0; i < len && n > 0; i++)
@@ -44,6 +45,6 @@ char *i_to_str(int n)
 	}
 	*(p + i) = '\0';
 
-	return revstr(p);
+	return (revstr(p));
 }
 

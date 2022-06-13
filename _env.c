@@ -4,7 +4,7 @@ void _env(void)
 {
 	int j = 0;
 
-	while(environ[j])
+	while (environ[j])
 	{
 		_puts(environ[j]);
 		_putchar('\n');

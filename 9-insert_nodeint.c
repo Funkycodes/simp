@@ -1,9 +1,9 @@
 #include "shell.h"
 /**
  * insert_nodeint_at_index - Inserts a newnode at the specified index
- * @head: list
- * @idx: index
- * @n : data for new node
+ * @head: list pointer
+ * @idx: index to insert newnode
+ * @str: data for new node
  * Return: Adress of new node
  */
 list_t *insert_nodeint_at_index(list_t **head, unsigned int idx, char *str)

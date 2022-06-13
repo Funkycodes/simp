@@ -28,6 +28,7 @@ char *strdupe(char *str)
 void ignore_delimiters(char **str)
 {
 	char *node = *str;
+
 	while (*node == ' ')
 	{
 		node++;
@@ -35,7 +36,8 @@ void ignore_delimiters(char **str)
 	*str = node;
 }
 /**
- * t_length - computes length of a command token from beginning index to next delimiting char
+ * t_length - computes length of a command
+ * token from beginning index to next delimiting char
  * @str: string that contains the token
  * idx: beginning index of the token string
  * ch: delimiting char
@@ -43,6 +45,7 @@ void ignore_delimiters(char **str)
 int t_length(char *str, int idx, char ch)
 {
 	int len = 0;
+
 	while (*(str + idx) != ch && *(str + idx) != '\0')
 	{
 		idx++;
@@ -51,13 +54,15 @@ int t_length(char *str, int idx, char ch)
 	return (len);
 }
 /**
- * t_arraylength - computes total length of input string ignoring multiple continuous delimiters
+ * t_arraylength - computes total length of input string ignoring multiple
+ * continuous delimiters
  * @str: input string
  * @ch: delimiter
  */
 int t_arraylength(char *str, char ch)
 {
 	int i = 0, len = 0;
+
 	while (*(str + i))
 	{
 		if ((*(str + i) == ch) && (*(str + i + 1) == ch))
@@ -82,9 +87,10 @@ char **_strtok(char *str, char ch)
 	char **toks = NULL;
 	int len, i  = 0, j = 0, ptr = 0;
 	int tokArr_sz;
+
 	ignore_delimiters(&str);
 	tokArr_sz = t_arraylength(str, ch);
-	toks = malloc(sizeof (char *) * (tokArr_sz + 2));
+	toks = malloc(sizeof(char *) * (tokArr_sz + 2));
 	if (toks == NULL)
 		return (NULL);
 

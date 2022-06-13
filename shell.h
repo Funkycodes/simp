@@ -37,8 +37,8 @@ void c_exit(char **str, list_t *env);
 int _execute(char **toksArr, list_t *env, int num);
 void not_found(char *str, int c_n, list_t *env);
 /*Builtins*/
-int _builtins(char **args);
-int _cd(char *);
+int _builtins(char **args, list_t **);
+int _cd(char *, list_t **);
 void _env(void);
 /*GEtline*/
 char _getchar(void);

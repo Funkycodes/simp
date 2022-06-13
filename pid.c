@@ -1,20 +1,22 @@
 #include "shell.h"
 
-int main()
+int main(void)
 {
 	list_t *env;
 	int i;
 	char **toks;
 	char *line;
 	int cmd_no = 0;
+
 	createnvlist(&env);
+
+	if (!(isatty(STDIN_FILENO)))
+		_puts("$ ");
 	while (1)
 	{
 		cmd_no++;
 		if (isatty(STDIN_FILENO))
 			_puts("$ ");
-		else
-			_puts("Non nteractive");
 		signal(SIGINT, ctrl_c);
 		toks = NULL;
 		line = _getline();
@@ -23,7 +25,8 @@ int main()
 			continue;
 		}
 		toks = _strtok(line, ' ');
-		if ((i = _builtins(toks)) == 1)
+		i = _builtins(toks, &env);
+		if (i == 1)
 			continue;
 		else if (i == 0)
 			break;
