@@ -51,6 +51,7 @@ char _getchar(void);
 int _putchar(char c);
 char *_getline(void);
 void _puts(char *c);
+void non_interactive(list_t *env);
 /*Functions*/
 size_t print_list(const list_t *);
 size_t list_len(const list_t *h);

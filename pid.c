@@ -20,6 +20,8 @@ int main(void)
 		cmd_no++;
 		if (isatty(STDIN_FILENO))
 			_puts("$ ");
+		else
+			non_interactive(env);
 		signal(SIGINT, ctrl_c);
 		toks = NULL;
 		line = _getline();
