@@ -1,5 +1,10 @@
 #include "shell.h"
-
+/**
+ * _builtins - handles the shell builtins
+ * @args: user's input
+ * @env: enviroment linked list
+ * Return: 0 or 1 if builtins, 2 if otherwise
+ */
 int _builtins(char **args, list_t **env)
 {
 	int i = 0;

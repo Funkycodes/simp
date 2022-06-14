@@ -1,5 +1,9 @@
 #include "shell.h"
-
+/**
+ * numlen - computes the number of digits in a number
+ * @n: number
+ * Return: the number of digits
+ */
 int numlen(int n)
 {
 	int len = 0;
@@ -14,7 +18,11 @@ int numlen(int n)
 	} while (n > 0);
 	return (len);
 }
-
+/**
+ * revstr - reverse string
+ * @str: string to be reversed
+ * Return: reversed string
+ */
 char *revstr(char *str)
 {
 	int len = _strlen(str);
@@ -30,6 +38,11 @@ char *revstr(char *str)
 	free(str);
 	return (tmp);
 }
+/**
+ * i_to_str - converts number to string
+ * @n: number to convert
+ * Return: string form of number
+ */
 char *i_to_str(int n)
 {
 	int len = numlen(n);

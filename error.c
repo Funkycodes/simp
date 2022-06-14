@@ -21,11 +21,17 @@ void not_found(char *str, int c_n, list_t *env)
 	_puts(": ");
 	_puts("not found\n");
 }
-
+/**
+ * cd_error - print error if cd fails
+ * @env: environment linked list
+ * @i: return from cd
+ * @str: name of directory
+ * Return: void
+ */
 void cd_error(list_t *env, int i, char *str)
 {
 	char *shell;
-	
+
 	shell = get_env(env, "_");
 	if (i == -1)
 	{
@@ -35,5 +41,4 @@ void cd_error(list_t *env, int i, char *str)
 	_puts(": No such file or directory\n");
 	}
 	free(shell);
-	return;
 }

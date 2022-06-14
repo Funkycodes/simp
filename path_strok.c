@@ -1,4 +1,10 @@
 #include "shell.h"
+/**
+ * delimnum - returns the number of specific character found in a string
+ * @str: string
+ * @delim: character ot be counted
+ * Return: number of delims found
+ */
 int delimnum(char *str, char delim)
 {
 	int i, len;
@@ -12,6 +18,12 @@ int delimnum(char *str, char delim)
 	}
 	return (len);
 }
+/**
+ * path_strtok - tokenizes PATH environmental variable
+ * @str: string to be tokennized
+ * @delim: start stop
+ * Return: tokenized string(array of array)
+ */
 char **path_strtok(char *str, char *delim)
 {
 	char **toks = NULL, d_ch;

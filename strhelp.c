@@ -80,7 +80,12 @@ int _strcmp(char *a, char *b)
 	}
 	return (1);
 }
-
+/**
+ * c_strdup - duplicates only parts of a string
+ * @str: string to be duplicated
+ * @n: number of characters to exclude
+ * Return: duplicated string
+ */
 char *c_strdup(char *str, int n)
 {
 	char *dup = malloc((_strlen(str) + n - 1) * sizeof(*dup));

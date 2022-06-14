@@ -28,8 +28,8 @@ void c_exit(char **str, list_t *env)
 	exit(0);
 }
 /**
- * _execve - execute command user typed into shell
- * @s: command user typed
+ * _execute - execute command user typed into shell
+ * @toksArr: command user typed
  * @env: environmental variable
  * @num: nth user command; to be used in error message
  * Return: 0 on success

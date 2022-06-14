@@ -2,6 +2,7 @@
 /**
  * strdupe - duplicates string
  * @str: parameter
+ * Return: duplicate string
  */
 char *strdupe(char *str)
 {
@@ -39,8 +40,9 @@ void ignore_delimiters(char **str)
  * t_length - computes length of a command
  * token from beginning index to next delimiting char
  * @str: string that contains the token
- * idx: beginning index of the token string
- * ch: delimiting char
+ * @idx: beginning index of the token string
+ * @ch: delimiting char
+ * Return: length of command
  */
 int t_length(char *str, int idx, char ch)
 {
@@ -58,6 +60,7 @@ int t_length(char *str, int idx, char ch)
  * continuous delimiters
  * @str: input string
  * @ch: delimiter
+ * Return: computed length
  */
 int t_arraylength(char *str, char ch)
 {
@@ -80,7 +83,8 @@ int t_arraylength(char *str, char ch)
 /**
  * _strtok - tokenizes string
  * @str: input string
- * ch: delimiter
+ * @ch: delimiter
+ * Return: token array
  */
 char **_strtok(char *str, char ch)
 {

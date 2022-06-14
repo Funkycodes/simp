@@ -1,4 +1,9 @@
 #include "shell.h"
+/**
+ * _cdonly - chdir if only cd is input
+ * @env: environment linked list
+ * Return: 0 if successful, -1 if otherwise
+ */
 int _cdonly(list_t **env)
 {
 	char *opwd, pwd[80];
@@ -11,7 +16,12 @@ int _cdonly(list_t **env)
 	free(opwd);
 	return (i);
 }
-
+/**
+ * _cd - change directory
+ * @dir: destination directory
+ * @env: environment linked list
+ * Return: 0 if successful, 0 if otherwise
+ */
 int _cd(char *dir, list_t **env)
 {
 	char *ch;

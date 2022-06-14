@@ -1,5 +1,8 @@
 #include "shell.h"
-
+/**
+ * main - prompts user for input continuously until exit
+ * Return: exit stat
+ */
 int main(void)
 {
 	list_t *env;

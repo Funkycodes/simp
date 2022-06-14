@@ -8,28 +8,33 @@
 #include <signal.h>
 #include <sys/stat.h>
 extern char **environ;
+/**
+ * struct env - linked list for environmental variables
+ * @var: holds environmental variable string
+ * @next: points to next node
+ */
 typedef struct env
 {
-    char *var;/*holds environment variable*/
-    struct env *next;/*ptr to next variable*/
+	char *var;/*holds environment variable*/
+	struct env *next;/*ptr to next variable*/
 } list_t;
 
 
 void ctrl_c(int n);
 char *strdupe(char *);
-int t_arraylength(char*,char);
+int t_arraylength(char*, char);
 char **_strtok(char *, char);
-int t_length(char *, int ,char);
+int t_length(char *, int, char);
 int _strcmp(char *, char *);
 int _strlen(char *);
-char* _strcat(char *, char *);
+char *_strcat(char *, char *);
 void _strcpy(char *, char *);
 int c_strcmp(char *var, char *value);
 char *c_strdup(char *str, int n);
 int numlen(int n);
 char *i_to_str(int);
 char *revstr(char *str);
-void _realloc(char **str,int n);
+void _realloc(char **str, int n);
 char **path_strtok(char *str, char *delim);
 int delimnum(char *str, char delim);
 void free_double_ptr(char **str);

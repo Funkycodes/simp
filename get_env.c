@@ -1,5 +1,10 @@
 #include "shell.h"
-
+/**
+ * get_env - get enviroment variable
+ * @h: environmental linked list
+ * @var: environmental variable to get
+ * Return: value environmental variable
+ */
 char *get_env(list_t *h, char *var)
 {
 	int idx = get_node(h, var);
