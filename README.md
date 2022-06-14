@@ -140,5 +140,7 @@ This is a table with the files and their respective description used to create t
 (14 | 6 | 2022) First version
 ## Authors
 
-Habib Hassan <otakus3nnin@gmail.com>
+* Habib Hassan <otakus3nnin@gmail.com>
 (Funkycodes)
+* Ruth Ezeigbo <gentlechukwubuokem9366@gmail.com>
+(Gentle9366)
