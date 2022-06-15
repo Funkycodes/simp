@@ -11,7 +11,7 @@ char _getchar(void)
 
 	ch[0] = '\0';
 	i = read(STDIN_FILENO, ch, 1);
-	if ((i == 0))
+	if (i == 0)
 	{
 		if (isatty(STDIN_FILENO))
 			_puts("\n");
